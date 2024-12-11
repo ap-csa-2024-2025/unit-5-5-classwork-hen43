@@ -4,9 +4,10 @@ public class Main
 {
   public static void main(String[] args)
   {
-    Dog clifford = new Dog();
+    Dog zawg = new Dog();
 
-    clifford.setColor("red");
-    System.out.println(clifford.getColor());
+    zawg.setName("clifford");
+    zawg.setColor("red");
+    System.out.println(zawg.getColor());
   }
 }
