@@ -8,6 +8,12 @@ public class Main
 
     zawg.setName("clifford");
     zawg.setColor("red");
-    System.out.println(zawg.getColor());
+
+    String address = zawg.toString(); 
+    /* without toString(), this returns an error 
+    (though it is alwasy called on System.out.print())*/
+
+    System.out.println(zawg.equals("Dog@3d012ddd"));
+    System.out.println(zawg.toString().equals("Dog@3d012ddd"));
   }
 }
